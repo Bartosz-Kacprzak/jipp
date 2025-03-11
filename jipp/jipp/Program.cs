@@ -1,14 +1,9 @@
-﻿int a = 5;
-int b = 12;
+﻿string a = "Ala ";
+string b = "ma ";
+string c = "kota.";
 
-int add = a + b;
-int sub = a - b;
-int div = a / b;
-int mul = a * b;
-int mod = a % b;
+string result = a + b + c;
 
-Console.WriteLine(add);
-Console.WriteLine(sub);
-Console.WriteLine(div);
-Console.WriteLine(mul);
-Console.WriteLine(mod);
+Console.WriteLine(result);
+
+//W zmiennej string bez problemu możemy zapisywać połączenia innych zmiennych typu string by następnie je wypisać w konsoli.
