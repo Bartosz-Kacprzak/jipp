@@ -1,11 +1,14 @@
-﻿bool isTrue = true;
-bool isFalse = false;
-bool isReallyTrue = true;
+﻿int a = 5;
+int b = 12;
 
-bool and = isTrue && isFalse;
-bool or = isTrue || isReallyTrue;
-bool negative = !isFalse;
+int add = a + b;
+int sub = a - b;
+int div = a / b;
+int mul = a * b;
+int mod = a % b;
 
-Console.WriteLine(and);
-Console.WriteLine(or);
-Console.WriteLine(negative);
+Console.WriteLine(add);
+Console.WriteLine(sub);
+Console.WriteLine(div);
+Console.WriteLine(mul);
+Console.WriteLine(mod);
